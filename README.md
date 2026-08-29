@@ -93,7 +93,7 @@ Download the release archive, extract it and run:
 
 ```bash
 ./GPUMonitor
-```
+
 
 If necessary, make the executable file executable:
 
@@ -102,7 +102,7 @@ chmod +x GPUMonitor
 Then:
 
 ./GPUMonitor
-
+```
 A dedicated installation procedure may be provided in a future release.
 
 Desktop integration
