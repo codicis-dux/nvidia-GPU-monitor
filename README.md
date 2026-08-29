@@ -93,6 +93,7 @@ Download the release archive, extract it and run:
 
 ```bash
 ./GPUMonitor
+```
 
 If necessary, make the executable file executable:
 
