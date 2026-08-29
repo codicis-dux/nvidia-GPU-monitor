@@ -1,0 +1,18 @@
+GPU Monitor v1.0.0
+==================
+
+Platform
+--------
+Linux x86_64
+
+Required
+--------
+- NVIDIA GPU
+- NVIDIA driver with NVML support
+- Qt 6 runtime
+- X11 / XCB Qt platform plugin
+
+The application uses dynamically linked system libraries.
+GPU Monitor does not bundle Qt or NVIDIA driver libraries.
+
+
