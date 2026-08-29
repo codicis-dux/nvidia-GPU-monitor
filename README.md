@@ -113,92 +113,61 @@ Then:
 ./GPUMonitor
 ```
 
-A dedicated installation procedure may be provided in a future release.
+## Desktop integration
 
-Desktop integration
-The application icon is provided separately from the executable.
+The application icon is provided separately and can be used for desktop
+integration.
 
-It can be used for desktop integration and by a future installation
-procedure.
+## Size
 
-Size
 The Linux release executable is under 200 KB in its compressed form for
 release 1.0.0.
 
-System libraries and third-party runtime components are not bundled with
-the application.
+## Third-party software
 
-NVIDIA Management Library (NVML)
-GPU Monitor uses NVIDIA's NVIDIA Management Library (NVML) to retrieve
-GPU information.
-
-NVML is provided as part of the NVIDIA driver environment.
-
-GPU Monitor does not distribute the NVIDIA driver or NVML library.
-
-Third-party software
-GPU Monitor uses Qt 6 under the GNU Lesser General Public License
-version 3 (LGPLv3).
+GPU Monitor uses Qt 6 under the GNU Lesser General Public License v3.
 
 Qt is not bundled with GPU Monitor and must be provided by the target
 system.
 
-The LGPLv3 license text is provided in:
+The LGPLv3 license text is provided in
+`tiers_licenses/LGPL-3.0.txt`.
 
-tiers_licenses/LGPL-3.0.txt
+## License
 
-Third-party license information is kept separate from the GPU Monitor
-license.
-
-License
 Copyright © 2026 [YOUR NAME]
 
-GPU Monitor is proprietary software.
-
-GPU Monitor is provided free of charge for personal and commercial use.
+GPU Monitor is proprietary software and is provided free of charge for
+personal and commercial use.
 
 The software is provided "as is", without warranty of any kind.
 
-See LICENSE for the complete terms.
+See `LICENSE` for the complete terms.
 
-Source code
-The source code is not currently included in the public release.
 
-Release
-v1.0.0
+## Release
+
+**v1.0.0 — Linux x86-64**
+
 Initial public release.
 
-Platform: Linux x86-64
+## Known limitations
 
-Known limitations
-Linux x86-64 only
-NVIDIA GPU required
-Compatible NVIDIA driver required
-Qt 6 must be available on the target system
-Windows version not yet available
-Reported GPU information depends on the installed NVIDIA driver and NVML
-Roadmap
-Possible future improvements include:
+- Linux x86-64 only
+- NVIDIA GPU and compatible driver required
+- Qt 6 must be available on the target system
+- Windows version not yet available
 
-Windows support
-simplified installation
-Linux desktop integration
-automatic dependency checking
-additional GPU statistics
-improved session analysis
-additional benchmarking-oriented measurements
-possible removal of the Qt dependency in a future Linux version
-The roadmap is subject to change.
+## Roadmap
 
-Bug reports and feedback
+- Windows support
+- Simplified installation
+- Linux desktop integration
+- Additional GPU statistics and session analysis
+
+## Bug reports and feedback
+
 Bug reports, suggestions and feature requests are welcome.
 
-When reporting a problem, please provide:
-
-Linux distribution and version
-desktop environment
-NVIDIA GPU model
-NVIDIA driver version
-Qt version
-error messages, if any
-steps required to reproduce the problem
+When reporting a problem, please provide your Linux distribution,
+NVIDIA GPU model, NVIDIA driver version and relevant error messages.
