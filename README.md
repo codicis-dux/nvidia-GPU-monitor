@@ -85,11 +85,6 @@ GPU Monitor uses Qt 6 for its graphical user interface.
 Qt is not bundled with GPU Monitor and must be provided by the target
 system.
 
-## Installation
-
-The current release does not require a traditional installation.
-
-Download the release archive, extract it and run:
 
 ## Installation
 
@@ -135,7 +130,7 @@ The LGPLv3 license text is provided in
 
 ## License
 
-Copyright © 2026 [YOUR NAME]
+Copyright © 2026 
 
 GPU Monitor is proprietary software and is provided free of charge for
 personal and commercial use.
