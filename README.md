@@ -91,18 +91,28 @@ The current release does not require a traditional installation.
 
 Download the release archive, extract it and run:
 
+## Installation
+
+The current release does not require a traditional installation.
+
+Download the release archive, extract it and run:
+
 ```bash
 ./GPUMonitor
-
+```
 
 If necessary, make the executable file executable:
 
+```bash
 chmod +x GPUMonitor
+```
 
 Then:
 
+```bash
 ./GPUMonitor
 ```
+
 A dedicated installation procedure may be provided in a future release.
 
 Desktop integration
