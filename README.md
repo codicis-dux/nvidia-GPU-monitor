@@ -79,28 +79,12 @@ The current release is available for:
 
 Windows support is planned for a future release.
 
-### NVIDIA GPU and driver
-
-An NVIDIA GPU with a compatible NVIDIA driver is required.
-
-GPU Monitor uses the NVIDIA Management Library (NVML) to obtain GPU
-information.
-
-The NVIDIA driver and NVML are not bundled with GPU Monitor.
-
-### Qt
-
-GPU Monitor uses Qt 6 for its graphical user interface.
-
-Qt is not bundled with GPU Monitor and must be provided by the target
-system.
-
 
 ## Installation
 
 The current release does not require a traditional installation.
 
-Download the release archive, extract it and run:
+Just download the release archive, extract it and run:
 
 ```bash
 ./GPUMonitor
@@ -118,12 +102,15 @@ Then:
 ./GPUMonitor
 ```
 
+Note :
+The NVIDIA driver, NVML and Qt are not bundled with GPU Monitor
+and must be provided by the target system.
+
+
 ## Desktop integration
 
 The application icon is provided separately and can be used for desktop
 integration.
-
-## Size
 
 The Linux release executable is under 200 KB in its compressed form for
 release 1.0.0.
