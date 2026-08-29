@@ -7,13 +7,13 @@ general GPU monitoring.
 
 ## Overview
 
-GPU Monitor is a lightweight graphical monitoring tool for NVIDIA GPUs.
+It provides a real-time view of GPU resources and is particularly useful for:
 
-It provides a real-time view of GPU resources while running applications
-or workloads, with a particular focus on LLM inference, development and
-benchmarking.
-
-It can also be used for general GPU monitoring, including gaming.
+- LLM inference testing and development
+- GPU benchmarking
+- monitoring resource consumption during workloads
+- gaming
+- general GPU monitoring
 
 ## Features
 
@@ -46,18 +46,28 @@ A typical workflow is:
 4. Monitor GPU resource consumption during the workload.
 5. Stop or reset the session when the measurement is complete.
 
-This can be useful when comparing models, configurations, quantization
-levels or other inference parameters.
 
-GPU Monitor is a monitoring tool and is not intended to replace dedicated
-profiling or benchmarking software.
+## LLM benchmarking
+
+GPU Monitor is designed to help monitor GPU resource consumption during
+LLM inference and other GPU-intensive workloads.
+
+The session function makes it possible to isolate a workload and observe
+its resource consumption over a defined period.
+
+This can be useful when comparing models, configurations, quantization
+levels or inference parameters.
 
 ## Gaming
 
-GPU Monitor can also be used for general GPU monitoring while gaming.
+GPU Monitor can also be used to monitor GPU usage and power consumption
+during gaming sessions.
 
-For example, it can help monitor GPU resource consumption during a gaming
-session and observe power usage over an extended period.
+For example, it can help answer a simple question:
+
+> How much GPU power does my game actually consume during a six-hour
+> gaming session?
+
 
 ## Requirements
 
