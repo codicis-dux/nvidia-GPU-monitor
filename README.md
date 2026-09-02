@@ -69,7 +69,7 @@ during gaming sessions.
 For example, it can help answer a simple question:
 
 > How much GPU power does my game actually consume during a six-hour
-> gaming session?
+> gaming session ?
 
 
 ## Requirements
@@ -86,6 +86,7 @@ Windows support is planned for a future release.
 ## Installation
 
 The current release does not require a traditional installation.
+
 Just download the release archive, extract it and run:
 ```bash
 ./GPUMonitor
