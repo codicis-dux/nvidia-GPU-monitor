@@ -14,12 +14,9 @@ Designed for:
 ## Overview
 
 It provides a real-time view of GPU resources and is particularly useful for:
-
 - LLM inference testing and development
 - GPU benchmarking
 - monitoring resource consumption during workloads
-- gaming
-- general GPU monitoring
 
 ## Features
 
