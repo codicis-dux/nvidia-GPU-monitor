@@ -1,9 +1,15 @@
 # NVIDIA GPU Monitor
 
-Lightweight NVIDIA GPU monitor for LLM benchmarking, development, gaming and
-general GPU monitoring.
+A lightweight desktop GPU monitor for NVIDIA GPUs.
 
-![GPU Monitor](screenshot.png)
+Designed for:
+- LLM inference and benchmarking
+- AI / ML development
+- GPU-intensive workloads
+- Gaming monitoring
+- General GPU monitoring
+
+![NVIDIA GPU Monitor](screenshot.png)
 
 ## Overview
 
