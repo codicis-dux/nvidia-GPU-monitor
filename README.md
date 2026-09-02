@@ -86,12 +86,17 @@ Windows support is planned for a future release.
 ## Installation
 
 The current release does not require a traditional installation.
-
 Just download the release archive, extract it and run:
-
 ```bash
 ./GPUMonitor
 ```
+
+## Download
+Download the latest release:
+
+[Download NVIDIA GPU Monitor](../../releases/latest)
+Current release: **v1.0.0**
+Platform: **Linux x86-64**
 
 If necessary, make the executable file executable:
 
@@ -109,41 +114,33 @@ Note :
 The NVIDIA driver, NVML and Qt are not bundled with GPU Monitor
 and must be provided by the target system.
 
-
 ## Desktop integration
 
 The application icon is provided separately and can be used for desktop
 integration.
-
 The Linux release executable is under 200 KB in its compressed form for
 release 1.0.0.
 
 ## Third-party software
 
 GPU Monitor uses Qt 6 under the GNU Lesser General Public License v3.
-
 Qt is not bundled with GPU Monitor and must be provided by the target
 system.
-
 The LGPLv3 license text is provided in
 `tiers_licenses/LGPL-3.0.txt`.
 
 ## License
 
-Copyright © 2026 
+Copyright © 2026.Didier Rius.
 
-GPU Monitor is proprietary software and is provided free of charge for
-personal and commercial use.
+GPU Monitor is provided free of charge for personal and commercial use.
 
 The software is provided "as is", without warranty of any kind.
-
 See `LICENSE` for the complete terms.
-
 
 ## Release
 
 **v1.0.0 — Linux x86-64**
-
 Initial public release.
 
 ## Known limitations
