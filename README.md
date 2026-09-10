@@ -63,6 +63,7 @@ during gaming sessions.
 For example, it can help answer a simple question:
 
 > How much GPU power does my game actually consume during a six-hour gaming session ?
+
 > Is my game approaching its VRAM limit when I experience stuttering or performance drops ?
 
 
