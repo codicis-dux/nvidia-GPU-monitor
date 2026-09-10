@@ -67,6 +67,7 @@ For example, it can help answer a simple question:
 > Is my game approaching its VRAM limit when I experience stuttering or performance drops ?
 
 
+
 ## Requirements
 
 ### Current platform
