@@ -36,10 +36,15 @@ provided by the installed NVIDIA driver.
 ## LLM benchmarking and development
 
 GPU Monitor is designed to be useful when developing and testing
-GPU-accelerated applications and Large Language Models (LLMs).
+GPU-accelerated applications and Large Language Models (LLMs),
+monitoring GPU resource consumption during LLM inference and 
+other GPU-intensive workloads.
 
-The session function allows a workload to be monitored as a distinct
-measurement period.
+The session function makes it possible to isolate a workload and observe
+its resource consumption over a defined period.
+
+This can be useful when comparing models, configurations, quantization
+levels or inference parameters.
 
 A typical workflow is:
 
@@ -50,17 +55,6 @@ A typical workflow is:
 5. Stop or reset the session when the measurement is complete.
 
 
-## LLM benchmarking
-
-GPU Monitor is designed to help monitor GPU resource consumption during
-LLM inference and other GPU-intensive workloads.
-
-The session function makes it possible to isolate a workload and observe
-its resource consumption over a defined period.
-
-This can be useful when comparing models, configurations, quantization
-levels or inference parameters.
-
 ## Gaming
 
 GPU Monitor can also be used to monitor GPU usage and power consumption
@@ -68,8 +62,8 @@ during gaming sessions.
 
 For example, it can help answer a simple question:
 
-> How much GPU power does my game actually consume during a six-hour
-> gaming session ?
+> How much GPU power does my game actually consume during a six-hour gaming session ?
+> Is my game approaching its VRAM limit when I experience stuttering or performance drops ?
 
 
 ## Requirements
